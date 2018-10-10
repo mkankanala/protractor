@@ -5,6 +5,10 @@ var CalculatorPage = function() {
     browser.get('http://juliemr.github.io/protractor-demo/');
   };
 
+  this.gettw = function() {
+    browser.get('https://www.totalwireless.com/');
+  };
+
   this.setFirstValue = function(value) {
     element(by.model('first')).sendKeys(value);
   };
@@ -23,7 +27,11 @@ var CalculatorPage = function() {
 
   this.clickGo = function() {
     element(by.id('gobutton')).click()
-  }
+  };
+
+  this.getreuppage = function(){
+    element(by.id('lnk_REFILL')).click();
+  };
 };
 
 module.exports = CalculatorPage;

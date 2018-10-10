@@ -41,6 +41,18 @@ var CalculatorSteps = function() {
   this.Then('the result should equal $result', function (result, callback) {
     expect(this.page.getResult()).to.eventually.equal(result).and.notify(callback);
   });
+
+  this.Given('web homepage', function ( callback) {
+    this.page.gettw();
+    callback();
+  });
+
+  this.Then('Go to reup page', function ( callback) {
+   // expect(this.page.getResult()).to.eventually.equal(result).and.notify(callback);
+   this.page.getreuppage();
+   callback();
+  });
+
 };
 
 module.exports = CalculatorSteps;

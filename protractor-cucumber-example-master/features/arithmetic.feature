@@ -34,3 +34,8 @@ Feature: Arithmetic Operations
     Given The calculator is open
      When I calculate 26 % 11
      Then the result should equal 4
+     
+  Scenario: access totalwireless
+    Given web homepage
+    Then Go to reup page
+
