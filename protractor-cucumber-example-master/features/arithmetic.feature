@@ -38,4 +38,5 @@ Feature: Arithmetic Operations
   Scenario: access totalwireless
     Given web homepage
     Then Go to reup page
+    Then Enter phone number 3098573447
 

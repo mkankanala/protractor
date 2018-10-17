@@ -53,6 +53,15 @@ var CalculatorSteps = function() {
    callback();
   });
 
+  this.Then('Enter phone number $phone', function (phone, callback) {
+    // expect(this.page.getResult()).to.eventually.equal(result).and.notify(callback);
+    this.page.enterphonenumber(phone);
+    console.log(browser.params.login.email);
+    browser.params.login.email="def@gmail.com";
+    console.log(browser.params.login.email);
+    callback();
+   });
+
 };
 
 module.exports = CalculatorSteps;

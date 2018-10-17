@@ -7,12 +7,21 @@
     "chai": "~3.5.0",
     "chai-as-promised": "~6.0.0",
     "cucumber": "~1.3.2",
+    "cucumber-html-reporter": "^4.0.4",
+    "install": "^0.12.1",
     "protractor": "^5.1.1",
-    "protractor-cucumber-framework": "^3.0.0"
+    "protractor-cucumber-framework": "^3.0.0",
+    "protractor-jasmine-cucumber": "^0.2.2"
   },
   "scripts": {
     "prestart-webdriver": "webdriver-manager update",
     "start-webdriver": "webdriver-manager start",
     "protractor": "protractor protractor.conf.js"
+  },
+  "dependencies": {
+    "cucumber-html-report": "^0.6.5",
+    "protractor-simple-cucumber-html-reporter-plugin": "^1.0.0",
+    "serenity-cli": "^0.11.1",
+    "serenity-js": "^1.10.13"
   }
 }

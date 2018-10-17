@@ -32,6 +32,11 @@ var CalculatorPage = function() {
   this.getreuppage = function(){
     element(by.id('lnk_REFILL')).click();
   };
+
+  this.enterphonenumber =function(phone){
+    element.all(by.id('formreup')).get(3).clear().sendKeys(phone);
+    element(by.id('RenewService')).click();
+  }
 };
 
 module.exports = CalculatorPage;

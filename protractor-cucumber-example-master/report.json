@@ -1,0 +1,380 @@
+[
+  {
+    "description": "Add numbers",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given The calculator is open",
+        "category": "Arithmetic Operations: Add numbers",
+        "durationMillis": 2,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 7,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I calculate 1 + 2",
+        "category": "Arithmetic Operations: Add numbers",
+        "durationMillis": 3,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 8,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then the result should equal 3",
+        "category": "Arithmetic Operations: Add numbers",
+        "durationMillis": 4192,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 9,
+          "column": 1
+        }
+      }
+    ],
+    "duration": 4197
+  },
+  {
+    "description": "Should use add operator by default",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given The calculator is open",
+        "category": "Arithmetic Operations: Should use add operator by default",
+        "durationMillis": 1,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 12,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I enter first value of 10",
+        "category": "Arithmetic Operations: Should use add operator by default",
+        "durationMillis": 1,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 13,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I enter second value of 7",
+        "category": "Arithmetic Operations: Should use add operator by default",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 14,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "And I click Go",
+        "category": "Arithmetic Operations: Should use add operator by default",
+        "durationMillis": 1,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 15,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then the result should equal 17",
+        "category": "Arithmetic Operations: Should use add operator by default",
+        "durationMillis": 2302,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 16,
+          "column": 1
+        }
+      }
+    ],
+    "duration": 2305
+  },
+  {
+    "description": "Subtract numbers",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given The calculator is open",
+        "category": "Arithmetic Operations: Subtract numbers",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 19,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I calculate 15 - 7",
+        "category": "Arithmetic Operations: Subtract numbers",
+        "durationMillis": 1,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 20,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then the result should equal 8",
+        "category": "Arithmetic Operations: Subtract numbers",
+        "durationMillis": 2464,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 21,
+          "column": 1
+        }
+      }
+    ],
+    "duration": 2465
+  },
+  {
+    "description": "Multiply numbers",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given The calculator is open",
+        "category": "Arithmetic Operations: Multiply numbers",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 24,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I calculate 10 * 9",
+        "category": "Arithmetic Operations: Multiply numbers",
+        "durationMillis": 2,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 25,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then the result should equal 90",
+        "category": "Arithmetic Operations: Multiply numbers",
+        "durationMillis": 2519,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 26,
+          "column": 1
+        }
+      }
+    ],
+    "duration": 2521
+  },
+  {
+    "description": "Divide numbers",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given The calculator is open",
+        "category": "Arithmetic Operations: Divide numbers",
+        "durationMillis": 1,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 29,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I calculate 10 / 2",
+        "category": "Arithmetic Operations: Divide numbers",
+        "durationMillis": 3,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 30,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then the result should equal 5",
+        "category": "Arithmetic Operations: Divide numbers",
+        "durationMillis": 2340,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 31,
+          "column": 1
+        }
+      }
+    ],
+    "duration": 2344
+  },
+  {
+    "description": "Modulo numbers",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given The calculator is open",
+        "category": "Arithmetic Operations: Modulo numbers",
+        "durationMillis": 0,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 34,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "When I calculate 26 % 11",
+        "category": "Arithmetic Operations: Modulo numbers",
+        "durationMillis": 1,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 35,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then the result should equal 4",
+        "category": "Arithmetic Operations: Modulo numbers",
+        "durationMillis": 2602,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 36,
+          "column": 1
+        }
+      }
+    ],
+    "duration": 2603
+  },
+  {
+    "description": "access totalwireless",
+    "assertions": [
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      },
+      {
+        "passed": true
+      }
+    ],
+    "events": [
+      {
+        "emitterEvent": "testPass",
+        "name": "Given web homepage",
+        "category": "Arithmetic Operations: access totalwireless",
+        "durationMillis": 1,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 39,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then Go to reup page",
+        "category": "Arithmetic Operations: access totalwireless",
+        "durationMillis": 1,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 40,
+          "column": 1
+        }
+      },
+      {
+        "emitterEvent": "testPass",
+        "name": "Then Enter phone number 3098573447",
+        "category": "Arithmetic Operations: access totalwireless",
+        "durationMillis": 2,
+        "sourceLocation": {
+          "filePath": "C:\\Users\\Murali\\MyGit\\Protractor\\protractor-cucumber-example-master\\features\\arithmetic.feature",
+          "line": 41,
+          "column": 1
+        }
+      }
+    ],
+    "duration": 4
+  }
+]
